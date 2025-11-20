@@ -35,9 +35,9 @@ hashlink = "0.10"
 libtest-mimic = "0.8"
 quickcheck = "1.0"
 
-[profile.release-lto]
-inherits = "release"
-lto = true
+# [profile.release-lto]
+# inherits = "release"
+# lto = true
 
 [[test]]
 name = "yaml-test-suite"
